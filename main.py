@@ -14,10 +14,10 @@ TEXT = "#FFFFFE"
 SUBTEXT = "#A7A9BE"
 
 NAV_ITEMS = [
-    ("Home", ft.icons.HOME_OUTLINED, ft.icons.HOME),
-    ("Task", ft.icons.CHECK_BOX_OUTLINED, ft.icons.CHECK_BOX),
-    ("Promemoria", ft.icons.NOTIFICATIONS_OUTLINED, ft.icons.NOTIFICATIONS),
-    ("Profilo", ft.icons.PERSON_OUTLINED, ft.icons.PERSON),
+    ("Home", ft.icons.HOME, ft.icons.HOME),
+    ("Task", ft.icons.CHECK_BOX, ft.icons.CHECK_BOX),
+    ("Promemoria", ft.icons.NOTIFICATIONS, ft.icons.NOTIFICATIONS),
+    ("Profilo", ft.icons.PERSON, ft.icons.PERSON),
 ]
 
 

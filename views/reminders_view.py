@@ -284,7 +284,7 @@ def build_reminders_view(page: ft.Page, navigate):
                         spacing=3,
                     ),
                     ft.IconButton(
-                        icon=ft.icons.DELETE_OUTLINE,
+                        icon=ft.icons.DELETE,
                         icon_size=18,
                         icon_color="#F44336",
                         on_click=on_delete,

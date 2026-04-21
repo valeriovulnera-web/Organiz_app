@@ -374,14 +374,14 @@ def build_tasks_view(page: ft.Page, navigate):
                             ft.Row(
                                 [
                                     ft.IconButton(
-                                        icon=ft.icons.EDIT_OUTLINED,
+                                        icon=ft.icons.EDIT,
                                         icon_size=18,
                                         icon_color=SUBTEXT,
                                         on_click=on_edit,
                                         tooltip="Modifica",
                                     ),
                                     ft.IconButton(
-                                        icon=ft.icons.DELETE_OUTLINE,
+                                        icon=ft.icons.DELETE,
                                         icon_size=18,
                                         icon_color="#F44336",
                                         on_click=on_delete,
