@@ -72,7 +72,6 @@ def main(page: ft.Page):
         on_change=lambda e: navigate(e.control.selected_index),
         bgcolor=SURFACE,
         indicator_color=f"{PRIMARY}55",
-        surface_tint_color=PRIMARY,
         label_behavior=ft.NavigationBarLabelBehavior.ALWAYS_SHOW,
     )
 
