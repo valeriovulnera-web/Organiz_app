@@ -192,7 +192,7 @@ def _task_form_dialog(page, navigate, existing_task=None):
                 ft.Container(height=4),
                 ft.Row(
                     [
-                        ft.Icon(ft.icons.CALENDAR_TODAY, color=PRIMARY, size=18),
+                        ft.Icon(ft.Icons.CALENDAR_TODAY, color=PRIMARY, size=18),
                         ft.TextButton(
                             "Scegli scadenza",
                             on_click=lambda _: date_picker.pick_date(),
@@ -200,7 +200,7 @@ def _task_form_dialog(page, navigate, existing_task=None):
                         ),
                         date_display,
                         ft.IconButton(
-                            icon=ft.icons.CLOSE,
+                            icon=ft.Icons.CLOSE,
                             icon_size=16,
                             icon_color=SUBTEXT,
                             on_click=clear_date,
@@ -374,14 +374,14 @@ def build_tasks_view(page: ft.Page, navigate):
                             ft.Row(
                                 [
                                     ft.IconButton(
-                                        icon=ft.icons.EDIT,
+                                        icon=ft.Icons.EDIT,
                                         icon_size=18,
                                         icon_color=SUBTEXT,
                                         on_click=on_edit,
                                         tooltip="Modifica",
                                     ),
                                     ft.IconButton(
-                                        icon=ft.icons.DELETE,
+                                        icon=ft.Icons.DELETE,
                                         icon_size=18,
                                         icon_color="#F44336",
                                         on_click=on_delete,
@@ -445,7 +445,7 @@ def build_tasks_view(page: ft.Page, navigate):
             ),
             ft.Container(
                 content=ft.FloatingActionButton(
-                    icon=ft.icons.ADD,
+                    icon=ft.Icons.ADD,
                     bgcolor=PRIMARY,
                     foreground_color=TEXT,
                     on_click=lambda _: _task_form_dialog(page, load_tasks),

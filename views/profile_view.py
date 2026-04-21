@@ -37,7 +37,7 @@ def build_profile_view(page: ft.Page, navigate):
         color=TEXT,
         label_style=ft.TextStyle(color=SUBTEXT),
         suffix=ft.IconButton(
-            icon=ft.icons.SAVE,
+            icon=ft.Icons.SAVE,
             icon_color=PRIMARY,
             tooltip="Salva nome",
             on_click=lambda e: save_name(),

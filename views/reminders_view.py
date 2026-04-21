@@ -284,7 +284,7 @@ def build_reminders_view(page: ft.Page, navigate):
                         spacing=3,
                     ),
                     ft.IconButton(
-                        icon=ft.icons.DELETE,
+                        icon=ft.Icons.DELETE,
                         icon_size=18,
                         icon_color="#F44336",
                         on_click=on_delete,
@@ -318,7 +318,7 @@ def build_reminders_view(page: ft.Page, navigate):
             ),
             ft.Container(
                 content=ft.FloatingActionButton(
-                    icon=ft.icons.ADD_ALERT,
+                    icon=ft.Icons.ADD_ALERT,
                     bgcolor=ACCENT,
                     foreground_color=TEXT,
                     on_click=lambda _: _add_reminder_dialog(page, load_reminders),
