@@ -106,7 +106,7 @@ def _add_reminder_dialog(page, refresh):
         page.update()
 
     date_picker = ft.DatePicker(on_change=on_date_change, first_date=datetime(2020, 1, 1))
-    time_picker = ft.TimePicker(on_change=on_time_change, confirm_text="OK", cancel_text="Annulla")
+    time_picker = ft.TimePicker(on_change=on_time_change)
     page.overlay.extend([date_picker, time_picker])
 
     def on_save(e):

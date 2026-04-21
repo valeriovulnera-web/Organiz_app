@@ -420,9 +420,9 @@ def build_tasks_view(page: ft.Page, navigate):
         label_color=PRIMARY,
         unselected_label_color=SUBTEXT,
         tabs=[
-            ft.Tab(text="Aperte"),
-            ft.Tab(text="Oggi"),
-            ft.Tab(text="Completate"),
+            ft.Tab("Aperte"),
+            ft.Tab("Oggi"),
+            ft.Tab("Completate"),
         ],
     )
 
