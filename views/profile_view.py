@@ -107,7 +107,7 @@ def build_profile_view(page: ft.Page, navigate):
                             bgcolor=f"{PRIMARY}33",
                             border_radius=50,
                             padding=16,
-                            alignment=ft.alignment.CENTER,
+                            alignment=ft.Alignment(0, 0),
                             width=88,
                             height=88,
                         ),
@@ -117,7 +117,7 @@ def build_profile_view(page: ft.Page, navigate):
                     horizontal_alignment=ft.CrossAxisAlignment.CENTER,
                     spacing=6,
                 ),
-                alignment=ft.alignment.CENTER,
+                alignment=ft.Alignment(0, 0),
                 padding=ft.padding.only(bottom=20),
             ),
             # Change name

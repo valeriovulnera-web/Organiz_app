@@ -266,7 +266,7 @@ def build_tasks_view(page: ft.Page, navigate):
                         spacing=6,
                     ),
                     padding=ft.padding.symmetric(vertical=40),
-                    alignment=ft.alignment.CENTER,
+                    alignment=ft.Alignment(0, 0),
                 )
             )
         else:
@@ -451,7 +451,7 @@ def build_tasks_view(page: ft.Page, navigate):
                     on_click=lambda _: _task_form_dialog(page, load_tasks),
                     tooltip="Nuova Task",
                 ),
-                alignment=ft.alignment.BOTTOM_RIGHT,
+                alignment=ft.Alignment(1, 1),
                 padding=ft.padding.only(right=16, bottom=16),
                 expand=True,
             ),
