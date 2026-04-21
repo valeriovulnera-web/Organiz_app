@@ -120,7 +120,7 @@ def _show_onboarding(page: ft.Page, navigate):
             [
                 ft.Container(
                     content=ft.Text("🤖", size=48),
-                    alignment=ft.alignment.center,
+                    alignment=ft.alignment.CENTER,
                 ),
                 ft.Text(
                     "Ciao! Sono Orion, il tuo assistente personale.\n"

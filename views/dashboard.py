@@ -156,7 +156,7 @@ def build_dashboard(page: ft.Page, navigate):
                     spacing=4,
                 ),
                 padding=ft.padding.symmetric(vertical=20),
-                alignment=ft.alignment.center,
+                alignment=ft.alignment.CENTER,
             )
         ]
     )
