@@ -34,7 +34,6 @@ def main(page: ft.Page):
             primary=PRIMARY,
             secondary=ACCENT,
             surface=SURFACE,
-            background=BG,
             on_primary=TEXT,
         ),
         font_family="Roboto",
